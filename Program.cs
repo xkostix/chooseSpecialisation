@@ -2,5 +2,9 @@
 
 void getArrayOfThreeChar();
 
-string[] originArray = new string["1234", "yes", "nono", "22", "54321"];
+string[] originArray = new string["1234", "yes", "nono", "22", "54321"]; // Исходные данные
 
+string[] resultArray;
+int j = 0;
+
+//
