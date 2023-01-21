@@ -7,4 +7,13 @@ string[] originArray = new string["1234", "yes", "nono", "22", "54321"]; // Ис
 string[] resultArray;
 int j = 0;
 
-//
+//Поиск нужных строк и Формирование итогового массива
+for (int i = 0; i < originArray.Length; i++)
+{
+    if (originArray[i].Length <= 3)
+    {
+        resultArray[j] = originArray[i];
+        j++;
+    }
+}
+
