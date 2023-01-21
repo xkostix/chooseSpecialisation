@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Программа из массива строк формирует массив из строк, длина которых не более 3 символов.
+
+string[] originArray = new string[5]
